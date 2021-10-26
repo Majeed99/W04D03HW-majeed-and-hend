@@ -15,6 +15,8 @@ function ToDo() {
     let index = e.target.id;
     ToDos.splice(index, 1);
     setToDos((oldArray) => [...oldArray]);
+  Counters.splice(index,1);
+  setCounters((oldArray) => [...oldArray])
   }
 
   function plus(e) {
